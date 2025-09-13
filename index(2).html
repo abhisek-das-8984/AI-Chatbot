@@ -284,7 +284,7 @@
         </div>
         <div class="chat-messages" id="chatMessages">
             <div class="message bot-message">
-                <div class="message-text">Hello! I'm your Neon AI assistant powered by OpenRouter. How can I help you today?</div>
+                <div class="message-text">Hello! I'm your Jarvis AI assistant powered by OpenRouter. How can I help you today?</div>
                 <div class="timestamp">Just now</div>
             </div>
         </div>
@@ -311,7 +311,7 @@
             const apiStatus = document.getElementById('apiStatus');
             
             // Your OpenRouter API key
-            const OPENROUTER_API_KEY = "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";
+            const OPENROUTER_API_KEY = "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";
             const API_URL = "https://openrouter.ai/api/v1/chat/completions";
             
             // Add a message to the chat
@@ -375,7 +375,7 @@
                             "Content-Type": "application/json"
                         },
                         body: JSON.stringify({
-                            "model": "deepseek/deepseek-chat-v3.1:free",
+                            "model": "deepseek/deepseek-chat-v3-0324:free",
                             "messages": [
                                 {
                                     "role": "system",
